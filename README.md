@@ -5,7 +5,7 @@
 ## Installation
 
 ```zsh
-npm i git+https://github.com/alexandersandberg/react-native-begin-background-task.git
+npm i @alexandersandberg/react-native-begin-background-task
 ```
 then...
 
@@ -16,7 +16,7 @@ npx pod-install
 
 ## Usage
 ```javascript
-import { beginBackgroundTask, endBackgroundTask } from 'react-native-begin-background-task';
+import { beginBackgroundTask, endBackgroundTask } from '@alexandersandberg/react-native-begin-background-task';
 
 // ...
 
