@@ -1,4 +1,4 @@
-# react-native-begin-background-task
+# @alexandersandberg/react-native-begin-background-task
 
 >⚠️ Note: This only works on iOS and will be ignored on other platforms.
 
