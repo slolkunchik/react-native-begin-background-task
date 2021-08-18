@@ -1,29 +1,28 @@
 # react-native-begin-background-task
 
-## Getting started
+>⚠️ Note: This only works on iOS and will be ignored on other platforms.
 
-`$ npm install react-native-begin-background-task --save`
+## Installation
 
-### Mostly automatic installation
+```zsh
+npm i git+https://github.com/alexandersandberg/react-native-begin-background-task.git
+```
+then...
 
-`$ react-native link react-native-begin-background-task`
+```zsh
+npx pod-install
+```
 
-### Manual installation
-
-
-#### iOS
-
-1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
-2. Go to `node_modules` ➜ `react-native-begin-background-task` and add `RNBeginBackgroundTask.xcodeproj`
-3. In XCode, in the project navigator, select your project. Add `libRNBeginBackgroundTask.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
-4. Run your project (`Cmd+R`)<
 
 ## Usage
 ```javascript
 import { beginBackgroundTask, endBackgroundTask } from 'react-native-begin-background-task';
 
 // ...
+
 const backgroundTaskId = await beginBackgroundTask();
-// ...
+
+// Your task that you want to keep running if the app goes to the background...
+
 await endBackgroundTask(backgroundTaskId)
 ```
