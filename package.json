@@ -13,6 +13,6 @@
   "author": "Alexander Sandberg <hi@alexandersandberg.com>",
   "license": "MIT",
   "peerDependencies": {
-    "react-native": "^0.64.0"
+    "react-native": "^0.67.5"
   }
 }
